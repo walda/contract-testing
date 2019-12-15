@@ -92,6 +92,21 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+
+			<plugin>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-contract-maven-plugin</artifactId>
+				<version>2.1.2.RELEASE</version>
+				<extensions>true</extensions>
+				<configuration>
+					<contractsMode>LOCAL</contractsMode>
+					<contractDependency>
+						<groupId>io.walda</groupId>
+						<artifactId>contracts</artifactId>
+						<version>1.0-SNAPSHOT</version>
+					</contractDependency>
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
 

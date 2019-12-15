@@ -100,6 +100,12 @@
 					<baseClassForTests>
 						io.walda.producer.MvcTest
 					</baseClassForTests>
+					<contractsMode>LOCAL</contractsMode>
+					<contractDependency>
+						<groupId>io.walda</groupId>
+						<artifactId>contracts</artifactId>
+						<version>1.0-SNAPSHOT</version>
+					</contractDependency>
 				</configuration>
 			</plugin>
 		</plugins>
