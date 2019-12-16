@@ -1,0 +1,7 @@
+stubrunner:
+  amqp:
+    enabled: true
+  stream:
+    enabled: false
+  integration:
+    enabled: false

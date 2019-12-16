@@ -1,0 +1,18 @@
+server:
+  port: 8080
+
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: admin
+    password: admin
+    virtual-host: /
+
+stubrunner:
+  stubs-mode: local
+  work-offline: true
+  ids:
+    - io.walda:producer:+:9090
+  idsToServiceIds:
+    producer: io.walda:producer:+:9090
