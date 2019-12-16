@@ -1,4 +1,4 @@
-package contracts.io.walda.producer
+package contracts.io.walda.producer.io.walda.consumer.messaging
 
 import org.springframework.cloud.contract.spec.Contract
 
