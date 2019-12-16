@@ -1,0 +1,7 @@
+This is an example
+
+.request
+include::{snippets}/sayHello/http-request.adoc[]
+
+.response
+include::{snippets}/sayHello/http-response.adoc[]
