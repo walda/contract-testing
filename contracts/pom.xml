@@ -49,7 +49,6 @@
 							<descriptors>
 								${project.basedir}/src/assembly/contracts.xml
 							</descriptors>
-							<!-- If you want an explicit classifier remove the following line -->
 							<appendAssemblyId>false</appendAssemblyId>
 						</configuration>
 					</execution>
@@ -68,13 +67,6 @@
 					</execution>
 				</executions>
 			</plugin>
-<!--			<plugin>-->
-<!--				<artifactId>maven-surefire-plugin</artifactId>-->
-<!--				<configuration>-->
-<!--					<failIfNoTests>true</failIfNoTests>-->
-<!--				</configuration>-->
-<!--			</plugin>-->
-			<!-- remove::end[] -->
 		</plugins>
 	</build>
 

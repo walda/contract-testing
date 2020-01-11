@@ -17,7 +17,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(webEnvironment= SpringBootTest.WebEnvironment.RANDOM_PORT, classes = ContractTestingApplication.class)
+@SpringBootTest(webEnvironment= SpringBootTest.WebEnvironment.RANDOM_PORT)
 @AutoConfigureRestDocs(outputDir = "target/snippets")
 @AutoConfigureStubRunner(ids = {"io.walda:producer:+:9090"},
         stubsMode = StubRunnerProperties.StubsMode.LOCAL)
